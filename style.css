@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(129, 124, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    
+}
+
+.container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    border: 8px solid white;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 180px, 1fr));
+    grid-column: 2/3;
+    gap: 20px 15px;
+    padding: 10px;
+}
+.books .card{
+    background-color:cornsilk;
+    border-radius: 8px;
+    border: 6px solid white;
+    text-align: start;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addbookform{
+   padding-top: 15px;
+}
+.addbookbtn{
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: gray;
+    font-weight: bold;
+}
+
+#add-book{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    width: 15vw;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    height: 4vh;
+}
+
+.addbtn ,.resetbtn{
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    color: gray;
+    font-weight: bold;
+}
+.remove-button{
+    background-color: cornsilk;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    height: 5vh;
+    border: 1.5px solid black;
+    border-radius: 9px;
+
+}
