@@ -68,7 +68,7 @@ function displayBooks () {
     })
 }
 
-addBookToLibrary ("Harry Potter 1", "J.K.Rowling", "309", "Yes");
+adBookToLibrary ("Harry Potter 1", "J.K.Rowling", "309", "Yes");
 addBookToLibrary ("Lord of the Rings", "J.R.R. Tolkien", "1178", "No");
 addBookToLibrary ("Inferno", "Dan Brown", "642", "Yes");
 
